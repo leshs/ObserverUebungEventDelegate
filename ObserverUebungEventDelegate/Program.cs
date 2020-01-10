@@ -5,8 +5,8 @@ namespace ObserverUebungEventDelegate
     class Program
     {
         Logger logger1 = new Logger(Console.Out);
-        Logger logger2 = new Logger("C:\\Users\\lschubert\\Documents\\report.txt");
-        private FolderWatch folderWatch = new FolderWatch("C:\\Users\\lschubert\\Documents\\TestFolder");
+        Logger logger2 = new Logger("C:\\Users\\...\\Documents\\report.txt");
+        private FolderWatch folderWatch = new FolderWatch("C:\\Users\\...\\Documents\\TestFolder");
 
         static void Main(string[] args)
         {
